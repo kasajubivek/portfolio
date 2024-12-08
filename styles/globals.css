@@ -11,8 +11,7 @@ body {
   padding: 0;
   margin: 0;
   /* background-color: #11162b; */
-  background-color: #181818;
-  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='teal' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #000000;
   scroll-behavior: smooth;
 }
 
@@ -23,5 +22,84 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+
+
+/* body {
+  background: #3da3d5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+} */
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.4em; /* Adjust this value to increase the font size */
+  font-weight: bold; /* Make the text bold */
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+  /* background-color: #575757 !important; */
+  background-color: black !important;
+  color:#BEF264;
+  border: 2px solid white;
+  /* background-color: #BEF264 !important; */
+}
+
+.date {
+  color: rgb(255, 255, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
 }

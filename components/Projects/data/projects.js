@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 1,
-        title: "Job Skills Extraction & Analysis Using NLP",
+        title: "Job Skills Extraction Using NLP",
         year: "Jan 2024 - Mar 2024",
         description: "Implemented the NLP library, spaCy, and created a custom pipeline to extract soft and hard skills from a LinkedIn job description dataset with an accuracy of 83%. Fine-tuned model parameters and optimized entity recognition. Developed a course recommendation system based on the extracted skills using cosine similarity and created a real-time dashboard with Streamlit for data analytics and skill demand insights.",
         link: "https://github.com/kasajubivek/NLP",

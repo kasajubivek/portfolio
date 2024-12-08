@@ -17,7 +17,7 @@ const Footer = () => {
                 </h2>
                 <ul className="flex justify-center items-center gap-3">
                     <li className="text-white text-sm" title="LinkedIn">
-                        <a href="https://www.linkedin.com/in/bivek-kasaju-8aba3a196" className="ease-in-out duration-150 hover:text-teal-500">
+                        <a href="https://www.linkedin.com/in/bivek-kasaju-8aba3a196" className="ease-in-out duration-150 hover:text-lime-300">
                             <FaLinkedinIn />
                         </a>
                     </li>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </a>
                     </li> */}
                     <li className="text-white text-sm" title="GitHub">
-                        <a href="https://github.com/kasajubivek" className="ease-in-out duration-150 hover:text-teal-500">
+                        <a href="https://github.com/kasajubivek" className="ease-in-out duration-150 hover:text-lime-300">
                             <FaGithub />
                         </a>
                     </li>
@@ -41,18 +41,28 @@ const Footer = () => {
 
             <div className="py-8 flex flex-col gap-4 justify-between items-center max-w-6xl m-auto sm:flex-row sm:gap-0">
                 <ul className="flex justify-center items-center gap-4">
-                    <li className="text-gray-400 text-sm" title="Experiences">
-                        <a href="#experiences" className="font-bold ease-in-out duration-150 hover:text-white">
-                            Experiences
+                    <li className="text-gray-400 text-sm" title="Skills">
+                        <a href="#skills" className="font-bold ease-in-out duration-150 hover:text-lime-300">
+                            Skills
+                        </a>
+                    </li>
+                    <li className="text-gray-400 text-sm" title="Experience">
+                        <a href="#experience" className="font-bold ease-in-out duration-150 hover:text-lime-300">
+                            Experience
+                        </a>
+                    </li>
+                    <li className="text-gray-400 text-sm" title="Timeline">
+                        <a href="#timeline" className="font-bold ease-in-out duration-150 hover:text-lime-300">
+                            Timeline
                         </a>
                     </li>
                     <li className="text-gray-400 text-sm" title="Projects">
-                        <a href="#projects" className="font-bold ease-in-out duration-150 hover:text-white">
+                        <a href="#projects" className="font-bold ease-in-out duration-150 hover:text-lime-300">
                             Projects
                         </a>
                     </li>
                     <li className="text-gray-400 text-sm" title="Contact">
-                        <a href="#ontact" className="font-bold ease-in-out duration-150 hover:text-white">
+                        <a href="#contact" className="font-bold ease-in-out duration-150 hover:text-lime-300">
                             Contact
                         </a>
                     </li>
