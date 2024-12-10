@@ -14,11 +14,11 @@ const Marquee = () => {
             transition={{
               repeat: Infinity,  // Loop infinitely
               ease: "linear",     // Smooth constant speed
-              duration: 20,       // Adjust duration for scroll speed
+              duration: 12,       // Adjust duration for scroll speed
             }}
             className="py-2 text-3xl font-bold leading-none tracking-tighter lg:text-7xl"
           >
-            ,&nbsp;React, JavaScript, Next.js, Java, Spring Boot, C#, Python, ML, SQL, PLSQL
+            React, JavaScript, Next.js, Java, Spring Boot, C#, Python, ML, SQL, PLSQL,&nbsp;
           </motion.h1>
         ))}
       </div>
