@@ -18,7 +18,7 @@ const Marquee = () => {
             }}
             className="py-2 text-3xl font-bold leading-none tracking-tighter lg:text-7xl"
           >
-            React, JavaScript, Next.js, Java, Spring Boot, C#, Python, ML, SQL, PLSQL,&nbsp;
+            ,&nbsp;React, JavaScript, Next.js, Java, Spring Boot, C#, Python, ML, SQL, PLSQL
           </motion.h1>
         ))}
       </div>
