@@ -22,7 +22,7 @@ let timelineElements = [
   {
     id: 3,
     title: "Software Engineer",
-    location: "Cedar Gate Pvt. Ltd., Kathmandu Nepal",
+    location: "Cedar Gate Services Pvt. Ltd., Lalitpur, Nepal",
     description:
       "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
     buttonText: "Company Website",
@@ -32,7 +32,7 @@ let timelineElements = [
   {
     id: 4,
     title: "Full Stack Developer Intern",
-    location: "LIS Nepal Pvt. Ltd., Kathmandu Nepal",
+    location: "LIS Nepal Pvt. Ltd., Lalitpur, Nepal",
     description:
       "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
     buttonText: "Course Certificate",
@@ -51,7 +51,7 @@ let timelineElements = [
   },
   {
     id: 6,
-    title: "Bachelor of Engineering, Computer Science & Engineering",
+    title: "Bachelor of Computer Science & Engineering",
     location: "Nitte Meenakshi Institute of Technology, Bangalore, India",
     description:
       "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",

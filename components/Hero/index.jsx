@@ -33,7 +33,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        I’m a Software Engineer with almost 3 years of experience and a Master’s degree in Applied Computing, currently enhancing my skills through a co-op at Utilismart Corporation. I specialize in full-stack development, database management, and system optimization, with a strong focus on building efficient, scalable solutions.
+        I’m a Software Engineer with almost 3 years of experience and a Master’s degree in Applied Computing from University of Windsor, currently enhancing my skills through a co-op at Utilismart Corporation. I specialize in full-stack development, database management, and system optimization, with a strong focus on building efficient, scalable solutions.
       </motion.p>
 
       <div className="my-7 flex justify-start items-center gap-4 flex-wrap">

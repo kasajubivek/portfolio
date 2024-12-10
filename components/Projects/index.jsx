@@ -82,7 +82,7 @@ const Projects = () => {
                                 transition={{ duration: 0.6 }}
                                 viewport={{ once: true }}
                             >
-                                <b className="block text-sm text-gray-400 w-full mb-2">Technologies:</b>
+                                <b className="block text-sm text-gray-400 w-full mb-2">Skills:</b>
                                 {project.technologies.map((tech, techIndex) => (
                                     <motion.span
                                         className="mr-2 mt-4 bg-stone-900 px-2 py-1 text-sm font-medium text-lime-300 rounded-md"
