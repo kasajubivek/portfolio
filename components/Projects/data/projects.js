@@ -20,7 +20,7 @@ const projects = [
         title: "Netflix Clone Mobile App",
         year: "Feb 2023 - Apr 2023",
         description: "Designed a fully functional Netflix clone mobile app using React Native and Node.js, featuring user authentication, dynamic content library, search functionality, personalized recommendations, offline viewing, and user profiles. Developed a recommendation system using Collaborative Filtering and Content-Based Filtering algorithms to suggest personalized content based on user interests and past viewing choices.",
-        link: "https://github.com/kasajubivek/",
+        link: "https://github.com/kasajubivek/netflix-clone",
         technologies: ["React Native", "Node.js", "Collaborative Filtering", "Content-Based Filtering", "JavaScript"]
     }
 ];
