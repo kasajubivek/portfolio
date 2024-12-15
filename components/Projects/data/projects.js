@@ -17,27 +17,35 @@ const projects = [
     },
     {
         id: 3,
-        title: "Auto Mobile Price Analysis",
-        year: "Nov 2023 - Dec 2023",
-        description: "Developed an auto mobile price analysis system in Java using data structures like Trie for efficient inverted indexing, AVL Trees for page ranking algorithms, Edit Distance for similarity measurement, and Merge Sort for optimizing data sorting. Automated web scraping using Selenium, extracting over 1000+ automobile records from multiple sites.",
-        link: "https://github.com/kasajubivek/AutoMobilePriceAnalysis",
-        technologies: ["Java", "Selenium", "Trie", "AVL Trees", "Merge Sort", "Indexing", "Edit Distance", "Web Scraping"]
-    },
-    {
-        id: 4,
-        title: "Auto Mobile Price Analysis",
-        year: "Nov 2023 - Dec 2023",
-        description: "Developed an auto mobile price analysis system in Java using data structures like Trie for efficient inverted indexing, AVL Trees for page ranking algorithms, Edit Distance for similarity measurement, and Merge Sort for optimizing data sorting. Automated web scraping using Selenium, extracting over 1000+ automobile records from multiple sites.",
-        link: "https://github.com/kasajubivek/AutoMobilePriceAnalysis",
-        technologies: ["Java", "Selenium", "Trie", "AVL Trees", "Merge Sort", "Indexing", "Edit Distance", "Web Scraping"]
-    },
-    {
-        id: 5,
         title: "Netflix Clone",
         year: "Feb 2023 - Apr 2023",
         description: "Designed a fully functional Netflix clone using React and Node.js, featuring user authentication, dynamic content library, search functionality, personalized recommendations, offline viewing, and user profiles. Developed a recommendation system using Collaborative Filtering and Content-Based Filtering algorithms to suggest personalized content based on user interests and past viewing choices.",
         link: "https://github.com/kasajubivek/netflix-clone",
         technologies: ["React", "Node.js", "Collaborative Filtering", "Content-Based Filtering", "JavaScript"]
+    },
+    {
+        id: 4,
+        title: "Auto Attend",
+        year: "May 2024 - July 2024",
+        description: "The AutoAttend Tracker project is a solution designed to have an automated attendance management system using face recognition technology. It integrates Python (OpenCV, dlib, Streamlit), MongoDB, and SMTP to provide seamless data processing, dynamic visualizations, and automated notifications.",
+        link: "https://github.com/kasajubivek/AutoAttend",
+        technologies: ["Python","OpenCV","dlib", "Streamlit","MongoDB", "SMTP", "JIRA"]
+    },
+    {
+        id: 5,
+        title: "EcoTechRevive",
+        year: "June 2024 - July 2024",
+        description: "EcoTechRevive is a web platform developed using Django, HTML, CSS, Bootstrap, and SQLite, aimed at refurbishing outdated electronic devices to reduce e-waste. It offers features like user authentication, device refurbishment requests, order and inventory management, and customer support, promoting sustainability and responsible consumption.",
+        link: "https://github.com/kasajubivek/EcoTechRevive",
+        technologies: ["Django", "HTML", "CSS", "SQLite"]
+    },
+    {
+        id: 6,
+        title: "Website for a Law Firm",
+        year: "March 2024 - May 2024",
+        description: "A fully responsive law firm website developed with React, including a dynamic hero section, practice areas, media page, contact form, and an informative footer.",
+        link: "https://github.com/kasajubivek/lljoy",
+        technologies: ["React", "CSS"]
     }
 ];
 
