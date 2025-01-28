@@ -111,7 +111,13 @@ const Projects = () => {
     transition={{ duration: 0.6 }}
     viewport={{ once: true }}
 >
-{project.link.includes('github') ? 'GitHub Link' : 'Live Link'} <FaGithub />
+{project.link.includes('github') ? (
+    <>
+      GitHub Link <FaGithub />
+    </>
+  ) : (
+    'Live Link'
+  )}
 </motion.a>
                         </motion.div>
                     ))

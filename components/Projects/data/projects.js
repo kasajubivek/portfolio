@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         title: "AI Calculator",
-        year: "December 2024 - Jan 2025",
+        year: "Dec 2024 - Jan 2025",
         description: "It's a calculator which features a note-style interface that lets users draw directly on the screen.  It goes beyond a traditional calculator by converting drawn shapes, formulas, and ideas into meaningful insights. ",
         link: "https://calc-ai.netlify.app/",
         technologies: ["React", "Python", "Gemini API"]
