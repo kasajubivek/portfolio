@@ -31,7 +31,7 @@ const Projects = () => {
             {/* Projects Grid */}
             <div className="py-12 grid lg:grid-cols-3 sm:grid-cols-2 gap-8">
                 {projects ? (
-                    projects.map((project, index) => (
+                    [...projects].reverse().map((project, index) => (
                         <motion.div
                             key={index}
                             className="p-6 from-lime-300 to-green-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 relative rounded-md"
