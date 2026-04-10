@@ -51,8 +51,8 @@ const Contact = () => {
                     viewport={{ once: true }}
                 >
                     <li className="mb-4 text-gray-300 text-md w-max" title="Email">
-                        <a href="mailto:kasaju@uwindsor.ca" className="flex gap-2 justify-start items-center w-max ease-in-out duration-150 hover:text-lime-300">
-                            <span className="text-sm font-initial">kasaju@uwindsor.ca</span>
+                        <a href="mailto:bkasaju97@gmail.com" className="flex gap-2 justify-start items-center w-max ease-in-out duration-150 hover:text-lime-300">
+                            <span className="text-sm font-initial">bkasaju97@gmail.com</span>
                         </a>
                     </li>
                     <li className="mb-4 text-gray-300 text-md w-max" title="Phone">

@@ -1,18 +1,28 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Software Developer Co-op",
-    location: "Utilismart Corporation, Windsor, Canada",
+    title: "Software Developer",
+    location: "Utilismart Corporation, Windsor, ON, Canada",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
     buttonText: "View Frontend Projects",
-    date: "September 2024 - Present",
+    date: "May 2025 - Present",
     icon: "work",
   },
   {
     id: 2,
+    title: "Software Developer Co-op",
+    location: "Utilismart Corporation, Windsor, ON, Canada",
+    description:
+      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+    buttonText: "View Frontend Projects",
+    date: "September 2024 - April 2025",
+    icon: "work",
+  },
+  {
+    id: 3,
     title: "Master of Applied Computing",
-    location: "University of Windsor, Windsor, Canada",
+    location: "University of Windsor, Windsor, ON, Canada",
     description:
       "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
     buttonText: "View Backend Projects",
@@ -20,7 +30,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 3,
+    id: 4,
     title: "Software Engineer",
     location: "Cedar Gate Services Pvt. Ltd., Lalitpur, Nepal",
     description:
@@ -30,7 +40,7 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 5,
     title: "Full Stack Developer Intern",
     location: "LIS Nepal Pvt. Ltd., Lalitpur, Nepal",
     description:
@@ -40,7 +50,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 5,
+    id: 6,
     title: "Angular Developer Intern",
     location: "IMS Software Pvt. Ltd., Kathmandu, Nepal",
     description:
@@ -50,7 +60,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 6,
+    id: 7,
     title: "Bachelor of Computer Science & Engineering",
     location: "Nitte Meenakshi Institute of Technology, Bangalore, India",
     description:

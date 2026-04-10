@@ -4,7 +4,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "September 2024 - Present",
+    year: "May 2025 - Present",
+    role: "Software Developer",
+    company: "Utilismart Corporation",
+    description: `Built and maintained scalable microservices using .NET Core and C#, improving system performance and data synchronization. Contributed to a company-wide SSO solution using OAuth 2.0 and JWT, enabling seamless authentication across multiple applications. Designed and developed full-stack reporting features with robust data pipelines and interactive UI components. Also worked on testing frameworks and modernization of legacy systems to enhance reliability and maintainability.`,
+    technologies: ["Javascript", "React.js", "C#", "Java","PHP", "PL/SQL", "Snowflake"],
+  },
+  {
+    year: "September 2024 - April 2025",
     role: "Software Developer Co-op",
     company: "Utilismart Corporation",
     description: `Engaged in full-stack development with React 18 and TypeScript, developed scalable back-end services using C# and ASP.NET Core 6. Led porting of Java modules to C#, ensuring compatibility through unit testing with xUnit and Postman.`,

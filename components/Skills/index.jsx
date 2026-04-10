@@ -8,6 +8,9 @@ import { BiLogoPostgresql } from 'react-icons/bi'
 import { AiOutlineAppstore } from 'react-icons/ai' // For Angular (or other Angular-related icon)
 import { FaJava } from 'react-icons/fa'  // Java icon
 import { SiOracle } from 'react-icons/si' // Oracle icon (from Si package)
+import { SiCsharp } from 'react-icons/si' // C# icon
+import { SiDotnet } from 'react-icons/si' // .NET icon
+import { SiPython } from 'react-icons/si' // Python icon
 import { motion } from 'framer-motion'
 
 const Skills = () => {
@@ -60,11 +63,20 @@ const Skills = () => {
 
         <motion.div
           whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+          initial={{ opacity: 0, scale: 0.5, rotate: 15 }}
+          transition={{ duration: 0.6 }}
+          className="p-4"
+        >
+          <SiCsharp className='text-7xl text-purple-500' />
+        </motion.div>
+
+        <motion.div
+          whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
           initial={{ opacity: 0, scale: 0.5, rotate: -15 }}
           transition={{ duration: 0.6 }}
           className="p-4"
         >
-          <SiMongodb className='text-7xl text-cyan-500'/>
+          <SiDotnet className='text-7xl text-violet-400' />
         </motion.div>
 
         <motion.div
@@ -73,7 +85,16 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="p-4"
         >
-          <BiLogoPostgresql className='text-7xl text-sky-700'/>
+          <SiPython className='text-7xl text-blue-400' />
+        </motion.div>
+
+        <motion.div
+          whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+          initial={{ opacity: 0, scale: 0.5, rotate: -15 }}
+          transition={{ duration: 0.6 }}
+          className="p-4"
+        >
+          <SiMongodb className='text-7xl text-cyan-500'/>
         </motion.div>
 
         <motion.div
